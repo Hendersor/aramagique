@@ -1,0 +1,217 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+
+}
+
+.navBar{
+     width: 100%;
+     height: 80px;
+     display: flex;
+     justify-content: space-evenly;
+     border-bottom: 2px solid red;
+     position: sticky;
+     top: 0;
+     background-color: white;
+}
+
+.navBar figure{
+     display: flex;
+     align-items: center;
+     width: 20%;
+}
+
+.navBar figure img{
+     width: 100%;
+}
+
+.navBar .navBarList{
+     width: 70%;
+     align-items: center;
+     display: flex;
+     justify-content: space-evenly;
+     list-style: none;
+     font-weight: bold;
+
+}
+
+.navBarList a{
+     text-decoration: none;
+     font-size: 18px;
+}
+
+.mainContainer{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.mainContainer .iconName{
+     width: 50%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.mainContainer .iconName img{
+     width: 600px;
+}
+
+
+.mainContainer .design{
+     width: 50%;
+     height: 100%;
+}
+
+.mainContainer .design img{
+     width: 600px;
+}
+
+.aboutMe{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+}
+
+.aboutMe .pictureContainer{
+     width: 50%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.pictureContainer figure{
+     border-radius: 50%;
+     height: 650px;
+     width: 650px;
+}
+
+.pictureContainer figure img{
+     object-fit: contain;
+     width: 100%;
+     height: 100%;
+}
+
+.aboutMe .info{
+     width: 50%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.aboutMe .info .content{
+     width: 70%;
+     height: 40%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+.info .content h1{
+     font-size: 30px;
+     text-align: center;
+}
+
+.info .content p{
+     font-size: 20px;
+}
+
+
+.portfolio{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.portfolio .picturesContainer{
+     display: flex;
+     height: 300px;
+     width: 80%;
+     justify-content: space-evenly;
+     margin-bottom: 30px;
+}
+
+.portfolio .picturesContainer figure{
+     height: 100%;
+     width: 30%;
+}
+
+.picturesContainer img{
+ object-fit: contain;
+ height: 100%;
+width: 100%;
+}
+
+
+.paquetes{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.paquetes .contenedor{
+     width: 90%;
+     height: 70%;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.contenedor .unPaquete{
+     height: 100%;
+     width: 30%;
+}
+
+.unPaquete figure{
+     width: 100%;
+     height: 65%;
+}
+
+.unPaquete img{
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+}
+
+.unPaquete .infoContainer{
+     height: 30%;
+     width: 100%;
+     text-align: center;
+}
+
+.infoContainer h1{
+     margin: 10px 0;
+}
+
+.contact{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+}
+
+.contact .contactContainer{
+     width: 90%;
+     height: 50%;
+     align-self: center;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+
+.contactContainer div h3{
+     font-size: 20px;
+     margin-bottom: 20px;
+     text-align: center;
+}
